@@ -1,0 +1,21 @@
+# Agent Layer
+> Machine-first, pay-per-request structured data for autonomous agents.
+
+## Dataset #001
+UK Commercial Property Change Feed.
+
+Current coverage: Herefordshire Council.
+Current snapshots: 2026-08-01 and 2026-09-01.
+Licence: Open Government Licence 3.0.
+
+## API
+- GET /v1/health
+- GET /v1/sources/status
+- GET /v1/authorities
+- GET /v1/commercial-property/search?postcode=HR4
+- GET /v1/commercial-property/{record_id}
+- GET /v1/commercial-property/history/{record_id}
+- GET /v1/commercial-property/changes?event_type=RATEPAYER_CHANGED
+
+OpenAPI: /openapi.json
+Payment: x402 integration is the next release.
