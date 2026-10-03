@@ -14,7 +14,7 @@ DB = Path(os.getenv("AGENT_LAYER_DB", str(ROOT / "agent_layer.db")))
 
 app = FastAPI(
     title="Agent Layer API",
-    version="0.3.0",
+    version="0.3.1",
     description="Machine-first UK commercial-property change intelligence.",
 )
 
